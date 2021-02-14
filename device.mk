@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
 # MiuiCamera
 $(call inherit-product, vendor/apps/MiuiCamera/config.mk)
 
+# ScreenRecorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
