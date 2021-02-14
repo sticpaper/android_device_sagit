@@ -24,6 +24,12 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/apps/MiuiCamera/config.mk)
+
+# ScreenRecorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
 PRODUCT_NAME := exthm_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
