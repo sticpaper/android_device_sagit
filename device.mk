@@ -56,6 +56,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sagit
 
+# MiuiCamera
+$(call inherit-product, vendor/apps/MiuiCamera/config.mk)
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
