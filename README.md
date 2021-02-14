@@ -16,8 +16,8 @@ Chipset | Qualcomm MSM8998 Snapdragon 835
 GPU     | Adreno 540
 Memory  | 6 GB RAM
 Shipped Android Version | 7.1.1
-Storage | 64/128 GB (UFS Flash)
-Battery | Non-removable Li-Po 3350 mAh (QC 3.0)
+Storage | 64/128 GB (UFS 2.1 Flash)
+Battery | Non-removable Li-Polymer 3350 mAh (QC 3.0)
 Display | 1080 x 1920 pixels, 5.15 inches (~428 ppi pixel density)
 Camera  | Dual 12 MP, f/1.8, phase detection autofocus, dual-LED (dual tone) flash
 
